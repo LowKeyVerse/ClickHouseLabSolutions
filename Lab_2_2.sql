@@ -47,3 +47,6 @@ GROUP BY table;
 -- pypi	    59.60 MiB	231.13 MiB	2
 -- pypi2	14.93 MiB	219.83 MiB	2
 -- pypi3	14.19 MiB	219.83 MiB	2
+
+--Conclusion
+-- Having a good set of Primary Key in proper order of cardinality(Low Cardinality ASC) provides for better compression too.
