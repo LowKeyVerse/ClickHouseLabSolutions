@@ -50,3 +50,6 @@ GROUP BY table;
 
 --Conclusion
 -- Having a good set of Primary Key in proper order of cardinality(Low Cardinality ASC) provides for better compression too.
+
+-- True. Your choice for the primary key in a MergeTree table may increase or decrease compression, 
+-- thereby affecting disk space usage and query performance.
