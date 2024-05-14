@@ -1,3 +1,5 @@
+-- Understanding the Primary Keys in ClickHouse
+
 DESCRIBE s3('https://datasets-documentation.s3.eu-west-3.amazonaws.com/pypi/2023/pypi_0_7_34.snappy.parquet');
 
 SELECT *
